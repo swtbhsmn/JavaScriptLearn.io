@@ -11,7 +11,7 @@ const sortArrayCustomWay = (array) => {
 
             for (let j = i + 1; j < sizeOfArray; j++) {
             //For descending order only change > to <.
-                if (array[i] < array[j]) {
+                if (array[i] > array[j]) {
                     storeValue = array[i];
                     array[i] = array[j];
                     array[j] = storeValue;
